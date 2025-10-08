@@ -1,0 +1,2 @@
+File in write mode......Hi! I am Pengu the Penguin . I am 1 year old
+ File in append mode......Hi! I am a boy and I have a sister named Pegi. 
