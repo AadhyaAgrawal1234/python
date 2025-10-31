@@ -1,0 +1,16 @@
+file = open("Sample_File (2).txt", "w")
+file.write("My name is Aadhya. I am in Class 6. I like Python.")
+file.close()
+print("Your introduction is written in Sample_File (2).txt")
+
+file = open("Sample_File (2).txt", "r")
+content = file.read()
+file.close()
+words = content.split()
+print("Words in the file are:", words)
+
+file = open("Sample_File (2).txt", "w")
+file.write("My name is Aadhya. I am in Class 6. I like Python.")
+file.close()
+print("Sample_File (2).txt is created and your introduction is written.")
+print("All work is done!")
